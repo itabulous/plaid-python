@@ -17,7 +17,9 @@ setup(
     license='MIT',
     packages=find_packages(exclude='tests'),
     package_data={'README': ['README.md']},
-    install_requires=['requests>=2.7.0'],
+    install_requires=[
+        "requests"
+    ],
     zip_safe=False,
     include_package_data=True,
     classifiers=[
